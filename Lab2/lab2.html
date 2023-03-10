@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+
+    </head>
+    <body>
+        <h1>Registration Page</h1>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <Legend>General Information</Legend>
+                        <form action="">
+
+                            <table>
+                                <tr>
+                                    <th><label for="fname">First Name:</label></th>
+                                    <td><Input type="text" name="fname" id="fname"></Input></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="lname">Last Name:</label></th>
+                                    <td><Input type="text" name="lname" id="lname"></Input></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="faname">Father's Name:</label></th>
+                                    <td><Input type="text" name="faname" id="faname"></Input></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="moname">Mother's Name:</label></th>
+                                    <td><Input type="text" name="moname" id="moname"></Input></td>
+                                    <td><label for="selphoto">Select a photo: <br> <input type="file" name="selphoto" id="selphoto"></label></td>
+
+                                </tr>
+                                <tr>
+                                    <th><label for="male">Gender: </label> </th>
+                                    <td>
+                                        <input type="radio" id="male" name="gender" value="Male">
+                                        <label for="Male">Male</label>
+                                        <input type="radio" id="female" name="gender" value="Female">
+                                        <label for="Female">Female</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="date">Date of Birth</label></th>
+                                    <td><input type="date" id="date"></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="bgrp">Blood Group:</label> </th>
+                                    <td><select name="bgrp" id="bgrp">
+                                        <option value=""></option>
+                                        <option value="A+">A+</option>
+                                        <option value="A-">A-</option>
+                                        <option value="B+">B+</option>
+                                        <option value="B-">B-</option>
+                                        <option value="AB+">AB+</option>
+                                        <option value="AB-">AB-</option>
+                                        <option value="O-">O-</option>
+                                        <option value="O+">O+</option>
+                                      </select></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <table>
+                            <tr>
+                                <th><label for="email">Email: </label></th>
+                                <td><Input type="text" name="email" id="email"></Input></td>
+                            </tr>
+                            <tr>
+                                <th><label for="phn">Phone/Mobile: </label></th>
+                                <td><input type="text" name="phn" id="phn"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="web">Website: </label></th>
+                                <td><input type="text" name="web" id="web"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="pr-add">Present Address: </label></th>
+                                <td><textarea name="pad" id="pr-add" cols="20" rows="2"></textarea></td>
+                            </tr>
+                          
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <button name="submit" type="submit" value="Register">Register</button>
+    </body>
+</html>
